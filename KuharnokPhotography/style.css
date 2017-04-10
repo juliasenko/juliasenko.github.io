@@ -1,0 +1,836 @@
+@font-face {
+font-family: "HelveticaNeueCyr Light"; 
+src: local("HelveticaNeueCyr Light"), url("fonts/helveticaneuecyr-light.otf");
+}
+@font-face {
+font-family: "HelveticaNeueCyr UltraLight"; 
+src: local("HelveticaNeueCyr UltraLight"), url("fonts/HelveticaNueCyr.otf");
+}
+@font-face {
+font-family: "HelveticaNeueCyr Medium"; 
+src: local("HelveticaNeueCyr Medium"), url("fonts/helveticaneuecyr-medium.otf");
+}
+@font-face {
+font-family: "HelveticaNeueCyr Thin"; 
+src: local("HelveticaNeueCyr Thin"), url("fonts/helveticaneuecyr-thin.otf");
+}
+
+#forma{
+	position: fixed;
+	display: none;
+	width:25%;
+	height: 65%;
+	top:15%;
+	left:33%;	
+	font: 16px "HelveticaNeueCyr Light";
+	color: black;
+	letter-spacing:2px;
+}
+
+form{
+	padding-top: 15%;
+	padding-left:27%;
+	height: 100%;
+	width:100%;
+	background:#eeeeee;
+	padding-bottom:40px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+	
+	#forma h3{
+		color:#1483f7; 
+		font-size: 18px;
+		padding-left:5px;
+	}
+	
+	#forma  label {
+	    display:block;
+	    margin-top:10px;
+	    letter-spacing:2px;
+	}
+	#forma input{
+		border:1px solid #dedede;
+		padding:5px;
+		margin-top:3px;
+		font-size:0.9em;
+		color: black;
+		-moz-border-radius:4px;
+		-webkit-border-radius:4px;
+		border-radius:4px;
+		width:60%;
+	}
+	
+	#forma input[submit]{
+		color: white;
+	}
+	
+	#forma input:focus {
+		border:1px solid #97d6eb;
+	}
+	
+
+	#submit{
+	   	background-color: #2e2e30;
+		border: 1px #2e2e30 solid;
+		border-radius: 4px;	
+		font: 16px "HelveticaNeueCyr Medium";
+		cursor: pointer;
+		height: 45px;
+		width: 215px;
+		letter-spacing: 2px;
+		margin: 20px auto !important;
+		color: white !important;
+		}
+	#krestik{
+		width:25px;
+		height:25px;
+		display: block;
+		margin-top: -12%;
+		margin-left: 90%;
+		margin-bottom:20px;
+	}
+	
+	#submit:hover {
+	background-color: #1483f7;
+	border: 1px #1483f7 solid;
+	color: white;
+    }
+   	#forma span{
+		color: red;
+		font: 14px "HelveticaNeueCyr Thin";
+	}
+.nav {
+  position: fixed;
+  top: 0px;  /* если ноль заменить на число (и в скрипте тоже), то блок будет прилипать до того, как верхний край окна браузера дойдёт до верхнего края элемента. Может быть отрицательным числом. Применим, например, при фиксированном сверху меню */
+  z-index: 101;
+  width:100%;
+  background-color: white;
+  height:51px;
+ }
+body{
+	background-color: white;
+	color: white;
+	letter-spacing: 2px;
+	line-height: 133%;
+}
+.slaider{
+	width:100%;
+	height: 650px;
+	background-color: black;
+	background-image: url(images/slaider.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+        z-index: 103;
+}
+.slaider h1{
+	font: 30px "HelveticaNeueCyr Light";
+	position: absolute;
+    top: 250px;
+    left: 200px;
+	width: 340px;
+	line-height: 133%
+}
+.slaider p{
+	width: 35%;
+	font: 16px "HelveticaNeueCyr UltraLight";
+	line-height: 133%;
+	position: absolute;
+    top: 410px;
+    left: 200px;
+}
+
+.knopka{
+	display:block;
+	height: 32px;
+	width: 215px;
+	background-color: #1483f7;
+	border: 1px #1483f7 solid;
+	border-radius: 4px;	
+	text-align: center;
+	padding-top: 13px;
+	position: absolute;
+	margin-top: 20px;
+    top: 320px;
+    left: 200px;
+	font: 16px "HelveticaNeueCyr Medium";
+	color: white;
+}
+ a{
+	text-decoration: none;
+}
+.knopka:hover{
+	background-color: white;
+	border: 1px white solid;
+	color: #1483f7;
+}
+#strelka{
+    margin: auto;
+	width:22px;
+	position:relative;
+	top: 600px;
+	opacity:0.7;
+}
+#strelka:hover{
+	opacity:1;
+}
+ #logo{
+	float: left;
+	margin-top: 7px;
+	margin-left: 7px;
+}
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+    font: 14px "HelveticaNeueCyr Medium";
+    text-align: justify;	
+}	
+ nav a:hover{
+	color: #1483f7; 
+ }
+#menu{
+	text-align:center;
+	width: 45%;
+	margin: 0px auto;
+}
+#menu li {
+	width: 25%;
+	float: left;
+	margin: 15px auto;
+}
+ul{
+	list-style: none;
+}
+#kontact a:hover{
+	text-decoration: underline;
+	display: inline-block;
+	color: black;
+}
+#autorisation a:hover{
+	color: black;
+}
+#autorisation img{
+	margin-left:5px;
+}
+#autorisation {
+	text-align:center;
+	width: 17%;
+	margin: 0px auto;
+	float:right;
+}
+#autorisation  li{
+	width: 50%;
+	float: left;
+	margin: 15px auto;
+}
+#pattern{
+	float: left;
+	width:100%;
+	height:2px;
+	background-color: #dbdbdb;
+	}
+h3{
+	font: 20px "HelveticaNeueCyr Medium";
+	margin-bottom:40px;
+}
+span{
+	color:#1483f7; 
+}
+.numbers span{
+	font:70px "HelveticaNeueCyr Thin";
+	color: black;
+}
+.numbers{
+	width:500px;
+}
+.numbers p{
+	text-align:center;
+	width: 85px;
+	display: inline-block;
+	float: left;
+	margin-right:30px;
+}
+.leftcol p{
+	padding-right:30px;
+	margin-bottom:55px;
+}
+.leftcol { 
+    float: left;
+    width: 400px; 
+}
+.rightcol{ 
+    margin-left: 490px;
+	text-align: right;
+	font: 14px "HelveticaNeueCyr Medium";
+}
+.rightcol img{
+	display: inline-block;
+	float: left;
+}
+.rightcol p{
+	display: inline-block;
+	float: left;
+	margin-left:20px;
+	margin-bottom:68px;
+}
+#opyt{
+	float:right;
+}
+.main{
+	width:55%;
+	margin: 120px auto 85px auto;
+	height: 300px;
+	font: 16px "HelveticaNeueCyr UltraLight";
+	color: black;
+	clear: both;
+}
+.fotosiemka{
+	width:100%;
+	height: 520px;
+	background-color: #2e2e30;
+	background-image: url(images/glyanets.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.fotosiemka p{
+	width: 40%;
+	line-height: 133%;
+	font: 26px "HelveticaNeueCyr Thin";
+	position: relative;
+    top: 165px;
+    left: 350px;
+}
+#knopka1{
+	display:block;
+	height: 32px;
+	width: 215px;
+	background-color: white;
+	border: 1px white solid;
+	border-radius: 4px;	
+	text-align: center;
+	padding-top: 13px;
+	position: relative;
+    top: 165px;
+    left: 635px;
+	margin-top: 20px;
+	font: 16px "HelveticaNeueCyr Medium";
+	color: #2e2e30;
+ }
+#knopka1:hover{
+	background-color: #1483f7;
+	border: 1px #1483f7 solid;
+	color: white;
+}
+#knopka1 a{
+	text-decoration: none;
+}
+.gallery{
+	width: 635px;
+	margin: 48px auto;
+	font: 12px "HelveticaNeueCyr Thin";
+	color: black;	
+}
+.gallery img{
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+#portfolio1{
+	width:100%;
+	height: 473px;
+	background-color: white;
+	background-image: url(images/portfolio1.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}	
+#portfolio2{
+	width:100%;
+	height: 631px;
+	background-color: white;
+	background-image: url(images/portfolio2.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+}
+h4{
+	font: 14px "HelveticaNeueCyr Light";
+	margin-bottom:3px;
+}
+h5{
+	font: 12px "HelveticaNeueCyr Thin";
+	color:#1483f7;
+    margin-bottom: 14px;	
+}
+#text1{
+	width: 50%;
+	position: relative;
+    top: 60px;
+}
+#text2{
+	width: 31%;
+	position: relative;
+    top: 220px;
+	float: right;
+}
+#text2 img{
+  margin-right: 10px;
+}
+#text3{
+	background-color: #e8e8e8;
+	width:  40%;
+    padding: 27px;
+	padding-left: 15px;
+	position: relative;
+    top: 22px;
+}
+#text4{
+	width: 24%;
+	position: relative;
+    top: 170px;
+	float: right;
+}
+#text4 img{
+  margin-right: 7px;
+}
+.video{
+	width:100%;
+	height:610px;
+	background-color: black;
+	position: relative;
+        z-index: 101;
+	}
+.video iframe{
+	width:100%;
+	height:100%;
+	border:0;
+	margin: auto auto;
+}
+#vyrivniat{
+	text-align:justify;
+	letter-spacing: 2px;
+	}
+.konnection{
+	width: 55%;
+	margin: 48px auto;
+	text-align: center;
+	color: black;
+	font: 16px "HelveticaNeueCyr UltraLight";
+	letter-spacing: 2px;
+	line-height: 133%;
+	}
+h6{
+	font: 20px "HelveticaNeueCyr Medium";
+	margin-bottom: 25px;
+}
+.pics{
+	width: 100%;
+	margin-top: 73px;
+	font: 14px "HelveticaNeueCyr Thin";
+	clear: both;
+}
+.pics  img{
+	margin-bottom: 28px;
+}
+.shrift{
+	font: 14px "HelveticaNeueCyr Medium";
+	color: black;
+	margin-bottom: 14px;
+}
+#text1 img, #text2 img, #text3 img, #text4 img{
+	opacity:0.7;
+}
+#text1 img:hover, #text2 img:hover, #text3 img:hover, #text4 img:hover{
+	opacity:1;
+}
+#tel{
+	width: 30%;
+	float: left;
+	margin-bottom: 48px;
+}
+#adress{
+	width: 33%;
+	float: left;
+}
+#mail{
+	width: 37%;
+	float: right;
+	margin-top: 15px;
+}
+.map{
+	width: 100%;
+	height:400px;
+	margin-top: 250px;
+}
+.map iframe{
+	width: 100%;
+	height: 100%;
+	border:0;
+}
+footer{
+	clear: both;
+	width:100%;
+	height: 195px;
+	background-color: black;
+	background-image: url(images/footer.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	font: 12px "HelveticaNeueCyr UltraLight";
+}
+.sots_seti{
+	padding-top: 33px;
+	padding-bottom: 33px;
+	width: 25%;
+	margin:0 auto;	
+}
+.sots_seti a {
+	text-decoration: none;
+	display: inline-block;
+	text-align: justify;
+	margin-right: 22px;
+	opacity: 0.7;
+}
+.sots_seti a:hover{
+	opacity: 1;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	color: #1483f7;
+}
+.main1{
+	width: 55%;
+	margin: 0px auto;
+}
+footer p{
+	float: left;
+	width: 43%;
+	text-align: left;
+}
+.sites{
+	float: left;
+	width: 40%;
+}
+.sites1{
+	float: right;
+	width: 13%;
+}
+
+@media screen and (max-width: 1350px)
+{
+	#poloska{
+		display: none;
+	}
+	
+}
+@media screen and (max-width: 1280px){
+	#letter{
+		display:none;
+	}
+	.sots_seti{
+	width: 30%;
+	}
+	.fotosiemka p{
+		width: 43%;
+	}
+}
+@media screen and (max-width: 1235px){
+	.rightcol p{
+	margin-left:3px;
+	}
+}
+@media screen and (max-width: 1183px){
+	#opyt{
+	margin-top: -20px;
+	}
+}
+@media screen and (max-width: 1110px){
+	#opyt{
+	width: 150px;
+	height: 203px;
+	margin-top: 7px;
+	}
+	#knopka1{
+	left: 470px;
+	}
+}
+@media screen and (max-width: 1060px){
+	#opyt{
+	margin-right: -20px;
+	}
+	.sots_seti{
+	width: 35%;
+	}
+	
+	#autorisation {
+	width: 23%;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	#opyt{
+	margin-right: -35px;
+	}
+	.pics p{
+		font-size: 12px;
+	}
+	nav a {
+    font-size: 12px;
+	}
+}
+@media screen and (max-width: 1024px){
+	#opyt{
+	margin-right: -75px;
+	}
+}
+@media screen and (max-width: 960px){
+	#opyt{
+	margin-right: -85px;
+	}
+	.slaider h1{
+	left: 150px;
+    }
+    .slaider p{
+	left: 150px;
+	}
+   .knopka{
+	left: 150px;
+	}
+	.fotosiemka p{
+	left: 250px;
+	}
+   #knopka1{
+	left: 380px;
+	}
+}
+@media screen and (max-width: 930px){
+	#opyt{
+	margin-right: -105px;
+	}
+	.sots_seti{
+	width: 40%;
+	}
+	.pics p{
+		font-size: 14px;
+	}
+	#tel{
+	width: 50%;
+	float:left;
+	}
+    #adress{
+	width: 50%;
+	}
+    #mail{
+	width: 100%;
+	margin-bottom:43px;
+	}
+	.map{
+	margin-top: 430px;
+    }
+	.main1{
+	width: 80%;
+	margin: 0px auto;
+    }
+}
+@media screen and (max-width: 850px){
+	.slaider h1{
+	top: 200px;
+    left: 100px;
+    }
+    .slaider p{
+	top: 360px;
+    left: 100px;
+    }
+    .knopka{
+	top: 270px;
+	left: 100px;
+	}
+	#autorisation{
+		display: none;
+		}
+	#menu{
+		float: right;
+		width: 69%;
+		clear: both;
+	}
+	
+	nav a {
+    font-size: 16px;
+	}
+	#menu li {
+	margin-top: -50px;
+	}
+	.rightcol{
+		display: none;
+	}
+	.leftcol{
+		width:100%;
+	}
+	.numbers  p {
+		width: 100px;
+	}
+	.fotosiemka p{
+	left: 150px;
+	}
+   #knopka1{
+	left: 280px;
+	}
+	#tel{
+    margin-top: -30px;
+	width: 100%;
+	}
+    #adress{
+	width: 100%;
+	}
+    #mail{
+	width: 100%;
+	margin-top: 40px;
+	}
+	.pics p{
+	font-size: 16px;
+	}
+	.shrift{
+	font-size: 16px;
+	}
+	.map{
+	margin-top: 580px;
+    }
+	footer{
+	font-size: 14px;
+	}
+	.sots_seti{
+	width: 45%;
+	}
+}
+@media screen and (max-width: 768px){
+	#menu{
+		width: 20%;
+		text-align: right;
+		margin-top: 10px;
+		margin-right: 20px;
+		height:140px;
+	}
+	#menu li {
+	width: 100%;
+	float: left;
+	margin: 5px auto;
+	}
+	#logo{
+		display: none;
+	}
+	.nav{height: 150px;}
+	nav{
+		width:100%;
+		height: 150px;
+		background-image: url(images/logo1.png);
+		background-position: left;
+	    background-repeat: no-repeat;
+	}
+	.slaider h1{
+	top: 150px;
+    }
+    .slaider p{
+	font-size: 18px;
+	top: 300px;
+	width: 40%;
+	}
+   .knopka{
+	font-size: 18px;
+	top: 220px;
+    }
+	h3{
+	font-size: 22px;
+	}
+	.main{
+		font-size: 18px;
+	}
+	.fotosiemka p{
+	left: 100px;
+	width: 50%;
+	}
+   #knopka1{
+	left: 220px;
+	font-size: 18px;
+	}
+	.main1{
+	font-size: 16px;
+	width:95%;
+	}
+	.main1 p{
+	width:45%;
+	}
+	.sites{
+		width:25%;
+	}
+	.sites1{
+		width:15%;
+	}
+}
+@media screen and (max-width: 720px){
+	.slaider h1{
+	top: 100px;
+	left: 50px;
+	font-size: 32px;
+    }
+    .slaider p{
+	top: 250px;
+	width: 50%;
+	left: 50px;
+	font-size: 20px;
+	}
+   .knopka{
+	left: 50px;
+	top: 170px;
+	}
+	.main{
+		width:75%;
+	}
+	
+	h3{
+	font-size: 24px;
+	}
+	.fotosiemka p{
+	left: 50px;
+	width: 60%;
+	}
+   #knopka1{
+	left: 170px;
+	}
+	.gallery{
+		width: 90%;
+	}
+	#text1, #text2, #text3, #text4{
+		display: none;
+	}
+	.video{
+	width:100%;
+	height:350px;
+	background-color: black;
+    }
+	.konnection{
+		width:85%;
+	}
+	.map{
+	height:350px;
+	}
+	.sots_seti{
+	width: 50%;
+	}
+	.sites{
+		display: none;
+	}
+	.sites1{
+	  width: 20%;
+	  font-size: 14px;
+	  text-align: right;
+	}
+	footer p{
+		font-size: 14px;
+	}
+	.main1{
+		width:85%;
+	}
+}
