@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald');
+			   
+/*стартовая страница с картинкой-заглушкой*/
+#start{
+	width:100%;
+	height:  100vh;
+	background: url(../img/start.png) no-repeat black;
+	background-position: top center;
+}
+	#button{
+		position:absolute;
+		top: 510px;
+		left: 68%;
+		width: 210px;
+		height: 55px;
+		border: 2px #e9cd1c solid;
+		outline: 3px solid transparent;
+		outline-offset: -5px;
+		color: white;
+		text-align: center;
+		line-height: 55px; /* vertically center */
+		color: white;
+		font-family: 'Oswald', sans-serif;
+		text-decoration: none;
+  	}
+	#button:hover{
+		outline-color: #e9cd1c;
+		color:#e9cd1c;
+	}
+					

@@ -1,0 +1,117 @@
+body{
+	background: url('../img/Trevi_Fountain,_Rome.png') no-repeat #595555;
+	background-position: center center;
+	
+	}
+#hashtag{
+	margin-top: 45%;
+}
+	.menu-global {
+		margin: 40px;
+		margin-left: 20%;
+	}
+.promo, #button, .links a{
+		color: #d5d4d1;
+}
+		.links a:hover{
+			color: #fde40e;
+		}
+#button{	
+	border: 1px #d5d4d1 solid;
+}
+#sidebar{
+		background-color: white;
+	}	
+	#sidebar ul {
+			margin-top: 50%;
+	}
+#tittle{
+	position: fixed;
+	left: 0;
+	margin: 40px;
+	font: bold 34px 'Playfair Display', serif;
+	color: #fde40e;
+	line-height: 100%;
+	}
+#engTittle{
+	position: fixed;
+	left: 0;
+	margin: 40px;
+	margin-top: 10px;
+	font: 24px 'Oswald', sans-serif;
+	color: white;
+	}
+#video{
+	position:fixed;
+	left:0;
+	margin-left: 35%;
+	margin-top: 8%;
+}
+
+.trailer {
+	position: fixed;
+	left: 0;
+	margin-left: 37%;
+	margin-top: 35%;
+	font: bold 18px 'Oswald', sans-serif;
+	color: black;
+	z-index: 99;
+	border: none;
+	letter-spacing: 1px;
+}
+	.trailer:hover {
+		outline: none;
+		border: none;
+	}
+	.trailer img {
+	position: fixed;
+	left: 0;
+	margin-left: 68%;
+	margin-top: 0.7%;
+	z-index: 99;
+    height: 30px;
+	width: 30px;
+}
+		.trailer img:hover{
+			filter: brightness(10); 
+			-webkit-filter: brightness(10);
+			-moz-filter:  brightness(10);
+		}
+#moreVideo{
+	margin-left: 71%;
+}
+	#moreVideo span{
+		color: #fde40e;	
+	}
+#fonVideo{
+	position: fixed;
+	left: 0;
+	margin-left: 35%;
+	margin-top: 34%;
+	height: 70px;
+	width: 650px;
+	background-color: white;
+	opacity: 0.2;
+	}
+	
+@media screen and (max-height: 620px)
+{
+	#fonVideo{
+		margin-top: 33%;
+	}
+	#hashtag{
+	margin-top: 42%;
+	}
+	.trailer {
+	margin-top: 35%;
+	font-size: 15px;
+	}
+	#moreVideo{
+	margin-left: 78%;
+	}
+	.trailer img {
+	margin-left: 75%;
+	height: 40px;
+	width: 40px;
+	}
+}

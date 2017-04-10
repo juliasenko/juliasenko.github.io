@@ -1,0 +1,102 @@
+body{
+	background: url('../img/Trevi_Fountain,_Rome.png') no-repeat #595555;
+	background-position: center center;
+	}
+#hashtag{
+	margin-top: 46%;
+	z-index: 1000;
+}
+	.menu-global {
+		margin: 40px;
+		margin-left: 20%;
+	}
+.promo, #button, .links a{
+		color: #d5d4d1;
+}
+		.links a:hover{
+			color: #fde40e;
+		}
+#button{	
+	border: 1px #d5d4d1 solid;
+}
+	.container.open-sidebar {
+		left: 350px;
+	}		
+		#sidebar{
+			background-color: white;
+			left: -350px;
+			background: white;
+			width: 350px;
+		}	
+			#sidebar ul {
+				margin-top: 40%;
+			}
+#tittle{
+	position: fixed;
+	left: 0;
+	margin: 40px;
+	font: bold 34px 'Playfair Display', serif;
+	color: #fde40e;
+	line-height: 100%;
+	}
+#engTittle{
+	position: fixed;
+	left: 0;
+	margin: 40px;
+	margin-top: 10px;
+	font: 24px 'Oswald', sans-serif;
+	color: white;
+	}
+
+	 .slider {
+	z-index: 9;
+	width: 1100px;
+	height: 100%;
+	overflow: hidden;
+	position:fixed;
+	left:0;
+	margin-left: 25%;
+	margin-top: 0;
+ }
+ .slider ul,
+ .slider li {
+ padding: 0;
+ margin: 0;
+ list-style-type: none;
+ }
+ .slider ul {
+ width: 9999px; 
+ }
+ .slider ul li {
+ list-style-type: none;
+ float: left;
+ width: 1100px;
+ height: 100%
+ }
+ .slider .nav {
+ position: absolute;
+ left: 15px;
+ bottom: 12px; 
+ }
+ .slider .nav span {
+ opacity: 0.9;
+ background: #fff;
+ margin: 0 8px 0 0;
+ width: 16px;
+ height: 16px;
+ border-radius: 8px;
+ cursor: pointer;
+ overflow: hidden;
+ display: block;
+ float: left;
+ }
+ .slider .nav span.on {
+ background: #fde40e;
+ }
+ 
+ @media screen and (max-height: 620px)
+{
+	#hashtag{
+	margin-top: 42%;
+	}
+}

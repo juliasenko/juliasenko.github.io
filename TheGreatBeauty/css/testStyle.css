@@ -1,0 +1,164 @@
+@import "http://webfonts.ru/import/oswald.css";
+body{
+	font: 'Oswald', sans-serif;
+	background: url('../img/Trevi_Fountain,_Rome.png') no-repeat #595555;
+	background-position: center center;
+	}
+#hashtag{
+	margin-top: 45%;
+}
+	.menu-global {
+		margin: 40px;
+		margin-left: 20%;
+	}
+.promo, #button, .links a{
+		color: #d5d4d1;
+}
+		.links a:hover{
+			color: #fde40e;
+		}
+#button{	
+	border: 1px #d5d4d1 solid;
+}
+	.container.open-sidebar {
+		left: 250px;
+	}		
+		#sidebar{
+			background-color: white;
+			left: -250px;
+			background: white;
+			width: 250px;
+		}	
+			#sidebar ul {
+				margin-top: 52%;
+			}
+#tittle{
+	position: fixed;
+	left: 0;
+	margin: 40px;
+	font: bold 34px 'Playfair Display', serif;
+	color: #fde40e;
+	line-height: 100%;
+	}
+#engTittle{
+	position: fixed;
+	left: 0;
+	margin: 40px;
+	margin-top: 10px;
+	font: 24px 'Oswald', sans-serif;
+	color: white;
+	}
+#fonTest{
+	position:fixed;
+	left: 0;
+	margin-top: 6%;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-left: 30%;
+	width: 700px;
+	height: 500px;
+	z-index: -1;
+	text-align: center;
+}
+
+#option1,#option2,#option3,#option4,#time, #fonTest{
+	display:none;
+	margin-bottom: 10px;
+}
+#option1,#option2,#option3,#option4{
+	font: bold 20px 'Oswald', sans-serif;
+}
+	#option1:hover,#option2:hover,#option3:hover,#option4:hover{
+	color: #e9cd1c;
+}
+.answer{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    color: black;
+    padding: 4px 8px;
+	border: 0;
+	cursor: pointer;
+}
+	#start{
+		position:fixed;
+		left: 0;
+		margin-top: 13%;
+		background-color: rgba(255, 255, 255, 0.2);
+		margin-left: 42%;
+		width: 300px;
+		height: 100px;
+		border: 4px white solid;
+		outline: 3px solid transparent;
+		outline-offset: -7px;
+		text-align: center;
+		font: 40px 'Oswald', sans-serif;
+		text-decoration: none;
+		color:white;
+  	}
+		#start:hover{
+			outline-color: #e9cd1c;
+			border: 4px #e9cd1c solid;
+			color:#e9cd1c;
+		}
+			#start p{
+				margin-top: 7%;
+			}
+#startAgain{
+	position: fixed;
+	left: 0;
+	margin-top: 36%;
+	margin-left: 45%;
+}
+	#startAgain a{
+	 	font: bold 24px 'Oswald', sans-serif;
+		color: #343434;
+		text-decoration: none;
+		border: 2px #343434 solid;
+		outline: 3px solid transparent;
+		outline-offset: -5px;
+		text-align: center;
+		padding: 20px 40px;
+	}
+		#startAgain a:hover{
+			outline-color: black;
+			border: 2px black solid;
+			color: black;
+			
+		}
+#time, #stop{
+	position:fixed;
+	left: 0;
+	color: white;
+	font-size: 26px;
+	margin-top: 2%;
+	margin-left: 45%;
+	font: bold 30px 'Oswald', sans-serif;
+}
+#question{
+	margin: 25px;
+	font: bold 30px 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+#result{
+	font: bold 24px 'Oswald', sans-serif;
+	color: #343434;
+	margin-top: 10px;
+}
+#resultEnd{
+	font: bold 40px 'Oswald', sans-serif;
+	margin-top: 50px;
+	color: black;
+}
+#resultEndSmile{
+	font: bold 38px 'Playfair Display', serif;
+	color: #e9cd1c;
+	text-transform: uppercase;
+	margin: 40px;
+}
+
+ @media screen and (max-height: 620px)
+{
+	#hashtag{
+	margin-top: 42%;
+	}
+}
